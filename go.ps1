@@ -71,7 +71,7 @@ try {
     # -qedit = pula a rotina QuickEdit
     # Sem /S para nao ocultar as mensagens
 
-    & $arquivo /HWID -qedit
+    & $arquivo -qedit
 
     $codigo = $LASTEXITCODE
 
