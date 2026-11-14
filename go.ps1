@@ -32,7 +32,7 @@ try {
     Write-Host "Executando no terminal atual..."
 
     # Sem Start-Process e sem criar janela pelo iniciador
-    & $arquivo /HWID
+    & $arquivo
 
     $codigo = $LASTEXITCODE
 
